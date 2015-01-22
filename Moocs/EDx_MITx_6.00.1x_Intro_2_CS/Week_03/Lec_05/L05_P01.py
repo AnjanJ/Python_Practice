@@ -22,13 +22,12 @@ def iterPower(base, exp):
     # Your code here
     result = base
     if exp == 0:
-    	result = 1
-    	return result
+        result = 1
+        return result
     elif exp > 0:
-    	while exp > 1:
-    		result *= base
-    		exp -= 1
-    	
+        while exp > 1:
+            result *= base
+            exp -= 1
     return result
 
-print iterPower(4.98,4)
+print iterPower(4.98, 4)

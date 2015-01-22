@@ -10,6 +10,6 @@ def evalQuadratic(a, b, c, x):
     x: numerical value at which to evaluate the quadratic.
     '''
     # Your code here
-
+    return (a * (x*x))+(b*x)+c
 
 evalQuadratic(-4.48, 6.92, -3.38, -8.35)
